@@ -1,0 +1,8 @@
+import json
+
+def json_object_retrieve(x, key):
+  y = json.loads(x)
+  print(y["key"])
+
+object = {“a”:{“b”:{“c”:”d”}}}
+json_object_retrieve(object, a)
